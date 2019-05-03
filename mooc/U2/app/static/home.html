@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home - SocNet</title>
+    </head>
+    <body>
+        <div id="container">
+            <a href="/">SocNet</a> | <a href="home">Home</a> | <a href="login">Log In</a> | <a href="signup">Sign Up</a>
+            <h1>Hi, How are you?</h1>
+            <form action="processHome" method="post" name="home">
+                <label for="message">Say something:</label>
+                <div class="inputs">
+                    <input id="message" name="message" required="true" placeholder="Message" size="80" max="120" type="text" value=""/>
+                    <input id="last" type="hidden" name="last" value="">
+                </div>
+                <div class="inputs">
+					<input id="post_submit" name="post_submit" type="submit" value="Post!"/>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

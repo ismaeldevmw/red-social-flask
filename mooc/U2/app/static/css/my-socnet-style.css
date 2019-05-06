@@ -1,0 +1,45 @@
+/*my-socnet-style.css */
+/* Own stylesheet for SocNet */
+:root{
+    --blanco: #ffffff;
+    --dark-gray: #2A2929;
+    --bronze:  #cd7f32;
+    --light-bronze: #d69544; 
+}
+
+#container {
+    font-family: Helvetica, Geneva, Arial, sans-serif;
+    padding-left: 20px;
+    background-color: var(--blanco); 
+    font-color: var(--dark-gray);
+    margin: 10px;
+}
+a:link{
+    font-size: 120%;
+    text-decoration: none;
+}
+a:hover {
+    color: var(--light-bronze);
+}
+h1 {
+    color: var(--bronze);   
+}
+form {
+  
+    border:  2px solid var(--bronze);
+    border-radius: 10px;
+    overflow: auto;
+    margin: 5px;
+    font-size: 120%;  
+}
+label {
+    font-size: 110%;
+    padding: 5px;
+    text-align: left;
+    margin: 5px; 
+}
+.inputs {
+    padding: 5px;
+    text-align: left;
+    margin: 5px;
+}

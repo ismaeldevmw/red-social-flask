@@ -9,7 +9,6 @@ Para configurar el proyecto debes realizar los siguientes pasos.
 * Instalar la ultima version de Python 3.* en tu sistema operativo
 * Instalar el paquete de virtualenv
   > pip install virtualenv
-  > Item 2b
 * Inicializar el entorno virtual y darle un nombre
   > virtualenv web
 * Una vez inicializado activalo

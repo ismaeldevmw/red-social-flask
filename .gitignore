@@ -1,4 +1,4 @@
 web/
-veenv/
+venv/
 .idea/
 .vscode/
